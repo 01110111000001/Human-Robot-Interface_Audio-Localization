@@ -34,18 +34,12 @@ find_library( # Sets the name of the path variable.
 
 # Set the path to the Oboe directory
 set (OBOE_DIR C:/users/Moi/documents/cozmo/oboe)
-#set (OBOE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../..)
 
 # Add the Oboe library as a subdirectory in your project.
 add_subdirectory(${OBOE_DIR} ./oboe)
-#add_subdirectory(${OBOE_DIR} ./oboe-bin)
 
 # Specify the path to the Oboe header files.
 include_directories(${OBOE_DIR}/include)
-#include_directories(
-#    ${OBOE_DIR}/include
-#    ${OBOE_DIR}/src
-#)
 
 
 
