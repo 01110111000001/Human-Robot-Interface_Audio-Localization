@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cozmo_Direction</string>
+    <string name="start_direction">Start listening</string>
+    <string name="stop_direction">Stop listening</string>
+    <string name="need_record_audio_permission">This application needs RECORD_AUDIO permission</string>
+    <string name="status_playing">Engine listening...</string>
+    <string name="status_record_audio_denied">Error: Permission for RECORD_AUDIO was denied</string>
+    <string name="status_warning">Be aware to use your Cozmo Robot !</string>
+</resources>
